@@ -1,0 +1,31 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            background-color: #065c31;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #ukranian-flag {
+            margin-top: 50px;
+            width: 400px;
+            height: 250px;
+            border: 1px solid #fff;
+            background: linear-gradient(#0155af 50%, #efc601 50%);
+            border-style: none;
+            border-radius: 5px;
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 80px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
